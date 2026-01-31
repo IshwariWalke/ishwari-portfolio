@@ -2,10 +2,9 @@ import { useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
 
 const links = [
-  "home",
   "about",
-  "projects",
   "skills",
+  "projects",
   "experience",
   "courses",
   "education",
