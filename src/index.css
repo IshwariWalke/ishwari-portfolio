@@ -1,8 +1,41 @@
+/* =====================================================
+   Tailwind Base, Components, Utilities
+   ===================================================== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+/* =====================================================
+   Global Styles
+   ===================================================== */
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: theme('fontFamily.sans');
+}
+
+/* =====================================================
+   Reusable Components (Tailwind @layer)
+   ===================================================== */
+@layer components {
+  /* Section Title */
+  .section-title {
+    @apply text-4xl font-bold mb-10 text-primary;
+  }
+
+  /* Card Component */
+  .card {
+    @apply bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg transition-transform transform hover:scale-105;
+  }
+
+  /* Input Fields */
+  .input {
+    @apply w-full p-3 rounded-lg bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply px-6 py-3 rounded-lg bg-primary text-white hover:opacity-90 transition;
+  }
 }
