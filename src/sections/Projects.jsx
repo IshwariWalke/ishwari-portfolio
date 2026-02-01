@@ -39,10 +39,10 @@ export default function Projects() {
           </ul>
 
           <div className="flex flex-wrap gap-2 mt-4 text-xs">
-            <span className="px-3 py-1 rounded-full bg-accent">HTML</span>
-            <span className="px-3 py-1 rounded-full bg-accent">CSS</span>
-            <span className="px-3 py-1 rounded-full bg-accent">JavaScript</span>
-            <span className="px-3 py-1 rounded-full bg-accent">Database Design</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">HTML</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">CSS</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">JavaScript</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Database Design</span>
           </div>
         </motion.div>
 
@@ -78,10 +78,10 @@ export default function Projects() {
           </ul>
 
           <div className="flex flex-wrap gap-2 mt-4 text-xs">
-            <span className="px-3 py-1 rounded-full bg-accent">JavaScript</span>
-            <span className="px-3 py-1 rounded-full bg-accent">PWA</span>
-            <span className="px-3 py-1 rounded-full bg-accent">Tailwind CSS</span>
-            <span className="px-3 py-1 rounded-full bg-accent">Service Workers</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">JavaScript</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">PWA</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Tailwind CSS</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Service Workers</span>
           </div>
         </motion.div>
 
@@ -114,10 +114,10 @@ export default function Projects() {
           </ul>
 
           <div className="flex flex-wrap gap-2 mt-4 text-xs">
-            <span className="px-3 py-1 rounded-full bg-accent">Machine Learning</span>
-            <span className="px-3 py-1 rounded-full bg-accent">Neural Networks</span>
-            <span className="px-3 py-1 rounded-full bg-accent">EV Data</span>
-            <span className="px-3 py-1 rounded-full bg-accent">Feature Engineering</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Machine Learning</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Neural Networks</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">EV Data</span>
+            <span className="px-3 py-1 rounded-full bg-accent text-black">Feature Engineering</span>
           </div>
         </motion.div>
 

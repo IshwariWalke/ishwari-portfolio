@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="w-full py-10 px-6 bg-accent dark:bg-gray-900 text-center">
       
       {/* Name */}
-      <h3 className="text-xl font-semibold text-primary">
+      <h3 className="text-xl font-semibold text-primary font-logo">
         Ishwari Walke
       </h3>
 

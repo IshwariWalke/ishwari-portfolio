@@ -4,12 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-         primary: '#6E605A',
-        secondary: '#A89C95',
-        accent: '#E6DDD8',
+   primary:   '#7C3AED',  // violet-600 → softer, confident
+secondary: '#5a21b6bc',  // deep royal purple
+accent:    '#F3E8FF',  // very soft lavender (clean background)
+
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui"],
+        logo: ["'Great Vibes'", "cursive"],
       },
     },
   },
