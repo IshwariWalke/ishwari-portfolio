@@ -23,7 +23,8 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-accent/80 dark:bg-gray-900/80 backdrop-blur shadow">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-primary">Ishwari</div>
+        <div className="font-semibold font-logo text-2xl md:text-3xl text-primary tracking-wide font-logo drop-shadow-md
+">IshwariWalke</div>
         <ul className="hidden md:flex gap-6">
           {links.map((l) => (
             <li key={l}>
