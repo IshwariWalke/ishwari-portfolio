@@ -15,25 +15,26 @@ export default function About() {
   "
     >
       {/* HERO */}
-      <div className="flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
-        {/* Photo */}
+      <div className="flex flex-col md:flex-row items-center gap-12 text-center md:text-left mt-10 ">
+         {/* Photo */}
         <motion.img
           src={myPhoto}
           alt="Ishwari Walke"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="w-70 h-80 md:w-64 md:h-64 rounded-2xl object-contain border-4 border-primary shadow-xl"
+          transition={{ duration: 0.6, ease: "easeOut",}}
+          className="h-auto max-w-xs md:max-w-sm  rounded-2xl object-contain  shadow-xl mt-12"
+
         />
 
         {/* Intro */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2, ease: "easeOut", }}
         >
-          <h1 className="text-5xl font-bold mb-4">
-            Hi, I’m{" "}
+          <h1 className="text-5xl font-bold mb-4 text-center">
+            {/* Hi, I’m{" "} */}
             <span className="text-primary">Ishwari Walke</span>
           </h1>
 
@@ -47,14 +48,19 @@ export default function About() {
               {" "}AI-driven solutions
             </span>.
           </p>
-        </motion.div>
+          </motion.div>
+         
+        
       </div>
 
       {/* ABOUT CARD */}
       <motion.div
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.4 }}
+  transition={{
+  duration: 0.8,
+  ease: "easeOut",
+}}
   className="max-w-4xl text-center md:text-left"
 >
   <h2 className="section-title mb-6">About Me</h2>
